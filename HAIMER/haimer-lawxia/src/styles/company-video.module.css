@@ -1,0 +1,8 @@
+/* company-video.module.css */
+.videoTranslate {
+  transition: transform 0.1s linear;
+}
+.videoTranslate[data-translate] {
+  --video-translate: attr(data-translate px);
+  transform: translateX(var(--video-translate, 0px));
+} 

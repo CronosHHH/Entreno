@@ -1,0 +1,38 @@
+:root {
+  --palette-primaryBackground: #0a0a0f;
+  --palette-contentBackground: #181824;
+  --palette-textPrimary: #fff;
+  --palette-textSecondary: #b3b3c6;
+  --palette-textTertiary: #7a7a8c;
+  --palette-interactiveBlue: #3b82f6;
+  --palette-interactiveBlueHover: #2563eb;
+  --palette-textButtonPrimary: #fff;
+  --palette-componentSubtle: #232336;
+  --palette-componentSubtleHover: #2d2d44;
+  --palette-borderSubtle: #232336;
+  --palette-focusRing: #3b82f6;
+  --gradients-greetingText: linear-gradient(90deg, #3b82f6 0%, #9333ea 100%);
+  --gradients-geminiLogo: linear-gradient(90deg, #3b82f6 0%, #9333ea 100%);
+  --gradients-proBadge: linear-gradient(90deg, #f59e42 0%, #f43f5e 100%);
+  --effects-borderRadius-pill: 9999px;
+  --effects-borderRadius-medium: 8px;
+  --effects-borderRadius-large: 16px;
+  --effects-shadows-none: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --palette-primaryBackground: #0a0a0f;
+    --palette-contentBackground: #181824;
+    --palette-textPrimary: #fff;
+    --palette-textSecondary: #b3b3c6;
+    --palette-textTertiary: #7a7a8c;
+    --palette-interactiveBlue: #3b82f6;
+    --palette-interactiveBlueHover: #2563eb;
+    --palette-textButtonPrimary: #fff;
+    --palette-componentSubtle: #232336;
+    --palette-componentSubtleHover: #2d2d44;
+    --palette-borderSubtle: #232336;
+    --palette-focusRing: #3b82f6;
+  }
+} 
